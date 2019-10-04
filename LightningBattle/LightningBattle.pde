@@ -51,7 +51,7 @@ public class Baddie{
     strokeWeight(5);
     stroke(col2);
     fill(col1);
-    circle(400,250,size);
+    ellipse(400,250,size,size);
     col1 = color(210,180,140);
     col2 = color(255,255,255);
   }
